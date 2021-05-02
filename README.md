@@ -27,3 +27,9 @@ as soon as you downloaded the image execute the command
         python src/flask_api.py --model_path model/model_checkpoint.pth --class_index_path model/class_index_dict.json --endpoint_name classifier --host 0.0.0.0 --port 3030`
 
 the container is running now and the service is available
+
+# Run with Startup script
+
+simple run the bash-script 
+
+`bash start.sh`
